@@ -1,0 +1,185 @@
+.header {
+  height: 90vh;
+  background-color: black;
+}
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: black;
+}
+.nav-links p {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+}
+.logo {
+  width: 200px;
+  height: 100px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-content {
+  width: 40%;
+  margin: 5vh 15vh;
+}
+.banner-title {
+  font-size: 50px;
+  color: white;
+}
+.banner-subtitle {
+  font-size: 20px;
+  color: white;
+}
+.banner-image {
+  width: 80vh;
+  height: 80vh;
+  margin: 0px 5vh;
+}
+.banner-image img {
+  width: 100%;
+  height: 100%;
+}
+.intro-text {
+  font-size: 18px;
+  margin: 15vh;
+}
+.section-heading {
+  text-align: center;
+  color: red;
+}
+.section-card {
+  width: 80%;
+  margin: 5vh auto;
+  display: flex;
+  justify-content: space-between;
+}
+.section-card-image {
+  width: 30%;
+  margin: auto;
+}
+.section-card-image img {
+  width: 100%;
+  height: 100%;
+}
+.section-card-text {
+  margin: 5vh;
+}
+.section-card-heading {
+  font-size: 20px;
+}
+.section-card-subheading {
+  font-size: 15px;
+}
+.testimonial {
+  width: 90%;
+  margin: 5vh auto;
+  display: flex;
+  text-align: center;
+}
+.testimonail-image {
+  width: 10vh;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+.footer {
+  background-color: black;
+  height: 500px;
+  font-family: "Montserrat", sans-serif;
+}
+.fa-facebook {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  top: 10px;
+  right: 30px;
+  padding: 20px;
+}
+.fa-twitter {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  top: 10px;
+  right: 30px;
+  padding: 20px;
+}
+.fa-linkedin {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  top: 10px;
+  right: 30px;
+  padding: 20px;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 200px;
+}
+.section-1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.footer-heading-1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: 30px;
+}
+.privacy {
+  color: white;
+  font-size: 15px;
+}
+.terms {
+  color: white;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.privacy:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+.terms:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+.endlogo img {
+  position: relative;
+  top: 120px;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+@media (max-width: 970px) {
+  .top-nav {
+    flex-direction: column;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-text {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+  .banner-image {
+    width: 100vw;
+    height: 50vh;
+    margin: auto;
+  }
+  .banner-image img {
+    width: 100%;
+    height: 100%;
+  }
+}

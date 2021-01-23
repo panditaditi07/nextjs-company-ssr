@@ -1,0 +1,207 @@
+.header {
+  height: 90vh;
+}
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+}
+.nav-links p {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+  padding: 20px;
+}
+.logo {
+  width: 200px;
+  height: 100px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Gilroy-Medium";
+}
+.banner-content {
+  margin: 50px auto;
+  text-align: center;
+}
+.banner-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+.banner-subtitle {
+  font-size: 25px;
+
+  text-align: center;
+}
+.section-heading {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+}
+.portfolio {
+  display: flex;
+  align-items: center;
+  margin: 0px 5vh;
+  margin-bottom: 10vh;
+}
+.portfolio-image {
+  width: 90vh;
+  height: 60vh;
+  margin: 0px 5vh;
+}
+.company-name {
+  font-size: 30px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.company-description {
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.team-container {
+  width: 80%;
+  margin: 5vh auto;
+  display: flex;
+  align-items: center;
+}
+.team-image {
+  width: 40vh;
+  height: 40vh;
+  margin: 5vh;
+  border-radius: 3%;
+}
+.team-content {
+  margin: 5vh;
+}
+.team-name {
+  font-size: 30px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.team-intro {
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 10vh 5vh;
+  font-family: "Space Grotesk", sans-serif;
+}
+.copyright {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .nav-links {
+    flex-direction: column;
+  }
+  .portfolio-container,
+  .team-container,
+  .footer-content {
+    flex-direction: column;
+  }
+  .portfolio-image {
+    width: 45vh;
+    height: 30vh;
+  }
+  .footer-content {
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .banner-title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 650px) {
+  .logo {
+    margin: auto;
+  }
+  .top-nav {
+    flex-direction: column;
+  }
+  .nav-links {
+    flex-direction: row;
+    margin: auto;
+  }
+  .banner-content {
+    margin: 2vh;
+  }
+}
+@media (max-width: 500px) {
+  .banner-title {
+    font-size: 40px;
+  }
+  .banner-subtitle {
+    width: 100%;
+  }
+  .banner-subtitle,
+  .section-heading,
+  .company-name,
+  .team-name {
+    font-size: 20px;
+  }
+  .company-description,
+  .team-intro {
+    font-size: 15px;
+  }
+}
+@media (max-width: 300px) {
+  .banner-content {
+    font-size: 20px;
+  }
+  .banner-subtitle {
+    font-size: 15px;
+    margin: 0;
+  }
+  .portfolio-image {
+    width: 20vh;
+    height: 12vh;
+    margin: auto;
+  }
+  .team-image {
+    width: 20vh;
+    height: 20vh;
+    margin: auto;
+  }
+  .team-content {
+    margin: auto;
+  }
+
+  .footer-content {
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 200px) {
+  .company-logo {
+    width: 15vh;
+  }
+  .banner-title,
+  .section-heading,
+  .company-name,
+  .team-name {
+    font-size: 15px;
+  }
+  .company-description,
+  .team-intro {
+    font-size: 12px;
+  }
+  .team-image {
+    width: 10vh;
+    height: 10vh;
+  }
+  .portfolio {
+    margin: auto;
+  }
+  .portfolio-image {
+    width: 15vh;
+    height: 8vh;
+  }
+  .footer-content {
+    font-size: 8px;
+  }
+}

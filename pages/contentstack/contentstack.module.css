@@ -1,0 +1,255 @@
+.banner-section {
+  width: 100%;
+  height: auto;
+  background: no-repeat
+    url("https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt66f4449fa1b24162/5f1a2be22ac1577a44a8bfd7/hero-carousel-3.jpg");
+  /* background-size: 200vh; */
+  height: 100vh;
+  text-align: center;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+}
+.nav-links p {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+}
+.title {
+  font-size: 50px;
+  color: white;
+  justify-content: center;
+}
+.banner-content {
+  margin: 100px auto;
+  width: 50%;
+  justify-content: center;
+}
+.subtitle {
+  font-size: 20px;
+  color: white;
+}
+.next-banner {
+  min-height: 400px;
+  color: white;
+  background: linear-gradient(75deg, #5a20b9, #eb5646);
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+  font-size: 35px;
+  margin-bottom: 100vh;
+}
+.why-card {
+  width: 65%;
+  margin: auto;
+  box-shadow: 0px 20px 70px 0px grey;
+  font-size: 20px;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(80, 79, 79);
+  background-color: white;
+}
+.why-content {
+  width: 30%;
+  padding: 50px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 75%;
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+.main-heading {
+  text-align: center;
+  color: #2a0f57;
+}
+.blog-card {
+  margin: 50px;
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 20px 70px 0px grey;
+  margin-left: 50px;
+}
+
+.blog-image {
+  width: 650px;
+}
+.blog-heading {
+  text-align: justify;
+  font-size: 20px;
+  color: #444;
+}
+.blog-subheading {
+  margin-top: 50px;
+  color: #444;
+}
+@media (max-width: 999px) {
+  .why-box {
+    flex-direction: column;
+  }
+  .why-box-content {
+    width: 100%;
+    padding: 5vh;
+  }
+  .why-box-items {
+    margin: 0px auto 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 12px 0px rgb(219, 217, 217);
+  }
+}
+@media (max-width: 883px) {
+  .top-nav {
+    width: 100%;
+    padding: 3px;
+  }
+}
+@media (max-width: 773px) {
+  .top-nav {
+    font-size: 12px;
+  }
+}
+@media (max-width: 689px) {
+  .top-nav {
+    font-size: 8px;
+  }
+
+  .next-banner {
+    margin-bottom: 150vh;
+  }
+}
+@media (max-width: 560px) {
+  .title {
+    font-size: 40px;
+    margin: 0px auto;
+  }
+  .top-nav {
+    flex-direction: column;
+    font-size: 14px;
+  }
+  .logo {
+    margin: 2px auto;
+  }
+  .nav-links {
+    flex-direction: column;
+  }
+  .links {
+    padding: 3px;
+  }
+
+  .next-banner h2 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .next-banner {
+    margin-bottom: 170vh;
+  }
+}
+@media (max-width: 405px) {
+  .title {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+  .next-banner {
+    margin-bottom: 220vh;
+  }
+  .why-content h3,
+  .why-content p {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+@media (max-width: 295px) {
+  .why-banner {
+    padding: 1vh;
+    margin-bottom: 250vh;
+  }
+  .why-banner h1 {
+    font-size: 20px;
+  }
+  .why-box {
+    left: 5px;
+    right: 5px;
+  }
+}
+@media (max-width: 270px) {
+  .next-banner {
+    margin-bottom: 230vh;
+  }
+}
+@media (max-width: 230px) {
+  .links {
+    padding: 2vh;
+    margin: 0;
+  }
+  .title {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .subtitle {
+    font-size: 10px;
+  }
+  .next-banner {
+    min-height: 120px;
+    margin-bottom: 60vh;
+  }
+  .why-content {
+    padding: 3vh;
+  }
+  .why-content h3,
+  .why-content p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 200px) {
+  .logo {
+    width: 20vh;
+    height: auto;
+    margin: auto;
+  }
+  .next-banner {
+    margin-bottom: 100vh;
+  }
+}
+@media (max-width: 130px) {
+  .logo {
+    width: 80vw;
+  }
+  .links {
+    font-size: 10px;
+    padding: 3px 0px;
+  }
+  .title,
+  .subtitle {
+    font-size: 10px;
+  }
+
+  .next-banner {
+    margin-bottom: 120vh;
+  }
+  .why-content {
+    padding: 5vh 2px;
+  }
+  .next-banner h1 {
+    font-size: 10px;
+  }
+  .why-card h3,
+  .why-card p {
+    font-size: 8px;
+  }
+}
