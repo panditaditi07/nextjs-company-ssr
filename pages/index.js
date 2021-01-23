@@ -22,7 +22,10 @@ function Home(props) {
             return (
               <>
                 <Link href="/surfboard">
-                  <div className={styles["card"]}>
+                  <div
+                    className={styles["card"]}
+                    title="Click here for the website"
+                  >
                     <Link href="/surfboard">
                       <img
                         className={styles["logo"]}
@@ -45,8 +48,11 @@ function Home(props) {
               <>
                 {" "}
                 <Link href="/raweng" className={styles["link"]}>
-                  <div className={styles["card"]}>
-                    <Link href="/raweng">
+                  <div
+                    title="Click here for the website"
+                    className={styles["card"]}
+                  >
+                    <Link href="/raweng" title="Click here for the website">
                       <img
                         className={styles["relogo"]}
                         src={details.logo}
@@ -67,7 +73,10 @@ function Home(props) {
             return (
               <>
                 <Link href="/contentstack">
-                  <div className={styles["card"]}>
+                  <div
+                    className={styles["card"]}
+                    title="Click here for the website"
+                  >
                     <Link href="/contentstack">
                       <img
                         className={styles["logo"]}
