@@ -11,7 +11,7 @@
 # Data storage:
 
 The json data file is hosted on github.\
-[Link for json data](https://panditaditi07.github.io/SSRData/)
+[Hosted Link](https://panditaditi07.github.io/SSRData/)
 
 # Routes & Pages:
 
@@ -25,7 +25,7 @@ The json data file is hosted on github.\
    http://localhost:3000/raweng
 
 4. Contentstack Page: \
-   http://localhost:3000/raweng
+   http://localhost:3000/contentstack
 
    # To run the Project:
 
