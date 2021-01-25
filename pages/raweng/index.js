@@ -15,12 +15,6 @@ function RawEngineering(props) {
             <Link href="/">
               <p className={styles["link"]}>HOME</p>
             </Link>
-            <Link href="/surfboard">
-              <p className={styles["link"]}>SURFBOARD</p>
-            </Link>
-            <Link href="/contentstack">
-              <p className={styles["link"]}>CONTENTSTACK</p>
-            </Link>
           </div>
         </div>
 

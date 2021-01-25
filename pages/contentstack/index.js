@@ -23,12 +23,6 @@ function Contentstack(props) {
             <Link href="/">
               <p className={styles["link"]}>Home</p>
             </Link>
-            <Link href="/raweng">
-              <p className={styles["link"]}>Raw Engineering</p>
-            </Link>
-            <Link href="/surfboard">
-              <p className={styles["link"]}>Surfboard</p>
-            </Link>
           </div>
         </div>
         <div className={styles["banner-content"]}>
