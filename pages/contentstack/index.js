@@ -66,7 +66,7 @@ function Contentstack(props) {
       </div>
 
       <hr />
-      <footer className={styles["footer"]}>
+      <div className={styles["footer"]}>
         {contentstack.footer.map((footerLinks, i) => {
           return (
             <p key={i} className={styles["lists"]} key={i}>
@@ -74,7 +74,7 @@ function Contentstack(props) {
             </p>
           );
         })}
-      </footer>
+      </div>
     </div>
   );
 }
