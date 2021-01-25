@@ -1,5 +1,6 @@
 import Head from "next/head";
 import axios from "axios";
+import Link from "next/link";
 import styles from "./contentstack.module.css";
 const url = "https://panditaditi07.github.io/SSRData/contentstack.json";
 function Contentstack(props) {
@@ -19,6 +20,15 @@ function Contentstack(props) {
             alt="csLogo"
           ></img>
           <div className={styles["nav-links"]}>
+            <Link href="/">
+              <p className={styles["link"]}>Home</p>
+            </Link>
+            <Link href="/raweng">
+              <p className={styles["link"]}>Raw Engineering</p>
+            </Link>
+            <Link href="/surfboard">
+              <p className={styles["link"]}>Surfboard</p>
+            </Link>
             {contentstack.navLinks.map((link, i) => {
               return (
                 <p className={styles["links"]} key={i}>

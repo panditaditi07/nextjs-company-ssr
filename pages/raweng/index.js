@@ -1,5 +1,7 @@
 import Head from "next/head";
 import axios from "axios";
+import Link from "next/link";
+
 import styles from "./raweng.module.css";
 const url = "https://panditaditi07.github.io/SSRData/raweng.json";
 function RawEngineering(props) {
@@ -10,6 +12,15 @@ function RawEngineering(props) {
         <div className={styles["top-nav"]}>
           <img src={raweng.reLogo} className={styles["logo"]} alt="logo" />
           <div className={styles["nav-links"]}>
+            <Link href="/">
+              <p className={styles["link"]}>HOME</p>
+            </Link>
+            <Link href="/surfboard">
+              <p className={styles["link"]}>SURFBOARD</p>
+            </Link>
+            <Link href="/contentstack">
+              <p className={styles["link"]}>CONTENTSTACK</p>
+            </Link>
             {raweng.navLinks.map((link, i) => {
               return (
                 <p key={i} className={styles["link"]}>
