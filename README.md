@@ -44,4 +44,4 @@ To start the Next Server whenever you need to see the Webpage.
 # Live demo link:
 
 The project is hosted on vercel. \
-[Demo Link](https://nextjs-company-ssr.vercel.app/)
+[Demo Link](https://nextjs-company-ssr-website.vercel.app/)
