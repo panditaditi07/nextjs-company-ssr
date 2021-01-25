@@ -1,7 +1,7 @@
 import Head from "next/head";
 import axios from "axios";
 import Link from "next/link";
-
+import { FaFacebook, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 import styles from "./raweng.module.css";
 const url = "https://panditaditi07.github.io/SSRData/raweng.json";
 function RawEngineering(props) {
@@ -21,13 +21,6 @@ function RawEngineering(props) {
             <Link href="/contentstack">
               <p className={styles["link"]}>CONTENTSTACK</p>
             </Link>
-            {raweng.navLinks.map((link, i) => {
-              return (
-                <p key={i} className={styles["link"]}>
-                  {link}
-                </p>
-              );
-            })}
           </div>
         </div>
 
@@ -80,7 +73,7 @@ function RawEngineering(props) {
           );
         })}
       </div>
-      <footer className={styles["footer"]}>
+      <div className={styles["footer"]}>
         <h2 className={styles["footer-heading-1"]}>
           Ready to get started on your next project?
         </h2>
@@ -91,18 +84,30 @@ function RawEngineering(props) {
 
             <div className={styles["terms"]}>Backend Terms of Use</div>
           </div>
+
+          <div className={styles["icons"]}>
+            <FaFacebook size="5vh" color="white" />
+
+            <FaLinkedin size="5vh" color="white" />
+
+            <FaTwitter size="5vh" color="white" />
+
+            <FaInstagram size="5vh" color="white" />
+          </div>
         </div>
         <br />
         <br />
         <br />
-
+        <p className={styles["copyright"]}>
+          Copyright &copy; 2020 Raw Engineering LLC. All Rights Reserved.
+        </p>
         <div className={styles["endlogo"]}>
           <img
             src="https://www.raweng.com/v3/assets/bltaacb6b0c9b693c2d/blt67d1684f23bec105/5e31575101e4f445b22f4bde/soc_logo.png?width=100"
             alt="footer-logo"
           />
         </div>
-      </footer>
+      </div>
     </div>
   );
 }

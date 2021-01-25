@@ -31,15 +31,6 @@ function Surfboard(props) {
               <p className={styles["link"]}>Contentstack</p>
             </Link>
           </div>
-          <div className={styles["nav-links"]}>
-            {surfboard.navLinks.map((link, i) => {
-              return (
-                <p key={i} className={styles["link"]}>
-                  {link}
-                </p>
-              );
-            })}
-          </div>
         </div>
         <div className={styles["banner"]}>
           <div className={styles["banner-content"]}>

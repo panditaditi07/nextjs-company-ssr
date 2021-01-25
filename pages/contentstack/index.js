@@ -29,13 +29,6 @@ function Contentstack(props) {
             <Link href="/surfboard">
               <p className={styles["link"]}>Surfboard</p>
             </Link>
-            {contentstack.navLinks.map((link, i) => {
-              return (
-                <p className={styles["links"]} key={i}>
-                  {link}
-                </p>
-              );
-            })}
           </div>
         </div>
         <div className={styles["banner-content"]}>
