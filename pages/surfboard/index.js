@@ -81,7 +81,7 @@ function Surfboard(props) {
         <div className={styles["footer-content"]}>
           <img
             className={styles["company-logo"]}
-            src={surfboard.surfboardLogo}
+            src={surfboard.sfLogo}
             alt="Logo"
           />
           <div>
